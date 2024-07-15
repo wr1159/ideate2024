@@ -2,7 +2,7 @@ import React from "react";
 
 const WhatIsIdeate: React.FC = () => {
   return (
-    <div className="text-2xl lg:text-6xl lg:pt-16 pt-8 px-4 lg:px-16 grid-cols-3 grid">
+    <div className="text-lg xs:text-2xl lg:text-4xl xl:text-6xl lg:pt-16 pt-8 px-4 lg:px-16 grid-cols-3 grid">
       <p className="uppercase pb-8 lg:pb-16 col-span-3 align-middle mx-auto">
         What to Expect
       </p>
@@ -18,7 +18,7 @@ const WhatIsIdeate: React.FC = () => {
           17 Aug 2024
         </p>
         <p className="uppercase">Opening Day</p>
-        <p className="mt-4 text-base lg:text-3xl">The day of opening</p>
+        <p className="mt-2 lg:mt-4 text-sm xs:text-base lg:text-3xl">The day of opening</p>
       </div>
       <div className="flex flex-col items-center">
         <img

@@ -6,15 +6,15 @@ const Prizes: React.FC = () => {
       <p className="uppercase pb-8 lg:pb-16">Prizes</p>
       <div className="flex gap-x-4 lg:gap-x-16">
         <div className="flex flex-col items-center gap-y-8 mt-16">
-          <div className="rounded-2xl bg-gray-100 w-24 h-16 xs:h-32 xs:w-60 lg:w-96 lg:h-48" />
+          <div className="rounded-2xl bg-gray-100 w-24 h-16 xs:h-32 xs:w-60 lg:h-36 lg:w-72 xl:w-96 xl:h-48" />
           <p>2nd</p>
         </div>
         <div className="flex flex-col items-center gap-y-8">
-          <div className="rounded-2xl bg-gray-100 w-24 h-16 xs:h-32 xs:w-60 lg:w-96 lg:h-48" />
+          <div className="rounded-2xl bg-gray-100 w-24 h-16 xs:h-32 xs:w-60 lg:h-36 lg:w-72 xl:w-96 xl:h-48" />
           <p>1st</p>
         </div>
         <div className="flex flex-col items-center gap-y-8 mt-16">
-          <div className="rounded-2xl bg-gray-100 w-24 h-16 xs:h-32 xs:w-60 lg:w-96 lg:h-48" />
+          <div className="rounded-2xl bg-gray-100 w-24 h-16 xs:h-32 xs:w-60 lg:h-36 lg:w-72 xl:w-96 xl:h-48" />
           <p>3rd</p>
         </div>
       </div>
