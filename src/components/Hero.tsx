@@ -4,7 +4,7 @@ import React from 'react';
 const Hero: React.FC = () => {
   return (
     <div
-      className="flex items-center justify-center"
+      className="flex items-center justify-center min-h-screen"
     >
       <div>
         <div className="flex items-center gap-x-4">
