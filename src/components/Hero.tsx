@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
             />
           </a>
         </div>
-        <img src="../title/title_theme.png" alt="Hero" className="min-w-96" />
+        <img src="../title/title_theme.png" alt="Hero" className="min-w-48 md:min-w-96" />
       </div>
     </div>
   );
