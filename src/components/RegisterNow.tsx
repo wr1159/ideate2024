@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React from "react";
 
 const Sponsor: React.FC = () => {
   return (
@@ -7,7 +6,7 @@ const Sponsor: React.FC = () => {
       <a
         className="items-center flex justify-center py-16 lg:py-28 group"
         href="https://instagram.com/nusidp"
-        target='_blank'
+        target="_blank"
       >
         <img
           src="../registration/lit_bulb_head.png"

@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React from "react";
 
 const WhatIsIdeate: React.FC = () => {
   return (
@@ -76,7 +75,9 @@ const WhatIsIdeate: React.FC = () => {
         <p className="white-text-outline uppercase text-[#152cc5] text-base lg:text-3xl">
           Week 5 - Week 6
         </p>
-        <p className="uppercase">Semi-Finals <span className='text-base lg:text-3xl'>and</span> Finals</p>
+        <p className="uppercase">
+          Semi-Finals <span className="text-base lg:text-3xl">and</span> Finals
+        </p>
       </div>
     </div>
   );
