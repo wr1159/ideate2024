@@ -14,6 +14,9 @@ dependencies:
   '@astrojs/tailwind':
     specifier: ^5.1.0
     version: 5.1.0(astro@4.11.5)(tailwindcss@3.4.4)
+  '@fontsource/peace-sans':
+    specifier: ^5.0.11
+    version: 5.0.11
   '@types/react':
     specifier: ^18.3.3
     version: 18.3.3
@@ -699,6 +702,10 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /@fontsource/peace-sans@5.0.11:
+    resolution: {integrity: sha512-YwaWVWL7YgE5W8XjF+v0OGb8t1L9fTw2f8JyM6uh68SnW2Y8ibneMfvsp3Qm3fK/OwFFohgRTRUjnMC6/Yy/fQ==}
+    dev: false
 
   /@img/sharp-darwin-arm64@0.33.4:
     resolution: {integrity: sha512-p0suNqXufJs9t3RqLBO6vvrgr5OhgbWp76s5gTRvdmxmuv9E1rcaqGUsl3l4mKVmXPkTkTErXediAui4x+8PSA==}
