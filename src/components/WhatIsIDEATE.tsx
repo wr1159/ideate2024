@@ -6,8 +6,9 @@ const WhatIsIdeate: React.FC = () => {
       <p className="uppercase pb-8 lg:pb-16">What is IDEATE?</p>
       <div className="flex">
         <p className="place-self-start text-base lg:text-4xl">
-          smth smth history of ideate, about the people behind it, about the
-          purpose and other stuff to take up more space on the page
+        "Innovating the Ordinary" is the identity theme of our competition series, 
+        aimed at challenging university students in Singapore to envision and 
+        create innovative solutions that enhance everyday living. 
         </p>
         <div className="bg-gray-500 w-48 h-24 lg:w-96 lg:h-48 mr-8" />
       </div>
@@ -18,9 +19,10 @@ const WhatIsIdeate: React.FC = () => {
           className="w-40 h-24 lg:w-80 lg:h-48"
         />
         <p className="place-self-start text-base lg:text-4xl">
-          now we change things up by having stuff on the right instead,and
-          finally a kind message to participants on what we wish they can take
-          away from this event
+        Each year, participants will focus on transforming ordinary tasks into 
+        streamlined, efficient processes through mechatronic systems. This theme 
+        encourages creativity, hands-on learning, and the development of impactful 
+        ideas that address real-world challenges in daily life.
         </p>
       </div>
     </div>

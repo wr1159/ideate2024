@@ -6,33 +6,54 @@ import WhatIsIdeate from '../components/WhatIsIDEATE';
 import Sponsor from '../components/Sponsor';
 import Theme from '../components/Theme';
 import Prizes from '../components/Prizes';
-import Timeline from '../components/Timeline';
+import Timeline2 from '../components/Timeline_2';
+import Workshops from '../components/Workshops';
 import Venue from '../components/Venue';
 import RegisterNow from '../components/RegisterNow';
 
-import Timeline2 from '../components/Timeline_2';
-import Workshops from '../components/Workshops';
+import Header from '../components/Header';
 ---
 
 <Layout title="IDEATE 2024">
-	<main class="bg-inherit mx-auto items-center justify-center px-6 lg:px-12 text-white text-base" 
-	style={{ 
-		backgroundImage: "url('../full_bg_1920.png')", 
-		backgroundRepeat: "no-repeat", 
-		backgroundPosition: "center 0px", 
-		backgroundAttachment: "fixed", 
-		backgroundSize: "cover" 
-		}}
-	>
-		<Hero />
-		<Intro />
-		<WhatIsIdeate />
-		<Sponsor />
-		<Theme />
-		<Prizes />
-		<Timeline2 />
-		<Workshops />
-		<Venue />
-		<RegisterNow/>
-	</main>
+  <Header client:load />
+  <main class="bg-inherit mx-auto items-center justify-center px-6 lg:px-12 text-white text-base" 
+    style={{ 
+      backgroundImage: "url('../full_bg_1920.png')", 
+      backgroundRepeat: "no-repeat", 
+      backgroundPosition: "center 0px", 
+      backgroundAttachment: "fixed", 
+      backgroundSize: "cover" 
+    }}
+  >
+    <section id="hero">
+      <Hero />
+    </section>
+    <section id="intro">
+      <Intro />
+    </section>
+    <section id="what-is-ideate">
+      <WhatIsIdeate />
+    </section>
+    <section id="sponsor">
+      <Sponsor />
+    </section>
+    <section id="theme">
+      <Theme />
+    </section>
+    <section id="prizes">
+      <Prizes />
+    </section>
+    <section id="timeline2">
+      <Timeline2 />
+    </section>
+    <section id="workshops">
+      <Workshops />
+    </section>
+    <section id="venue">
+      <Venue />
+    </section>
+    <section id="register-now">
+      <RegisterNow />
+    </section>
+  </main>
 </Layout>
