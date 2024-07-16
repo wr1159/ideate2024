@@ -11,17 +11,17 @@ const Theme: React.FC = () => {
         <img
           src="../theme/triangle_block.png"
           alt="Triangle Block"
-          className="h-24 lg:h-60"
+          className="mt-3 h-[18vw] w-[18vw]"
         />
         <img
           src="../theme/bulb_with_house.png"
           alt="Bulb With House"
-          className="h-24 lg:h-60"
+          className="h-[21vw] w-[15vw]"
         />
         <img
           src="../theme/square_block.png"
           alt="Square Block"
-          className="h-24 lg:h-60"
+          className="mt-1 h-[14vw] w-[14vw]"
         />
       </div>
     </div>
