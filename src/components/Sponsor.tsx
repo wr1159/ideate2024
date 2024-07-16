@@ -4,7 +4,7 @@ const Sponsor: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-x-4 text-2xl lg:text-7xl lg:pt-16 pt-8 pb-12 min-h-[50vh] gap-y-8 px-4 lg:px-8">
       <p className="uppercase pb-8 lg:pb-16">With Support From</p>
-      <div className="grid lg:px-16 gap-4 grid-cols-1 xl:grid-cols-3 items-center bg-white rounded-md">
+      <div className="grid lg:px-16 gap-4 grid-cols-1 md:grid-cols-3 items-center bg-white rounded-md">
         <img
           src="../sponsors/JDF.jpg"
           alt="James Dyson Foundation"
