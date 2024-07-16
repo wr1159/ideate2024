@@ -3,7 +3,7 @@ import TimelineItem from "./TimelineItem";
 
 const WhatIsIdeate: React.FC = () => {
   return (
-    <div className="flex flex-col text-lg xs:text-2xl lg:text-4xl xl:text-6xl lg:pt-16 pt-8 px-4 lg:px-16">
+    <div className="flex flex-col text-lg xs:text-2xl lg:text-4xl xl:text-6xl lg:pt-16 pt-8 px-4 lg:px-16 leading-tight">
       <p className="uppercase pb-8 lg:pb-16 align-middle mx-auto">
         What to Expect
       </p>

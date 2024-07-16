@@ -9,15 +9,15 @@ type TimelineItemProps = {
   };
   
   const TimelineItem: React.FC<TimelineItemProps> = ({ title, date, desc, direction, shape }) => {
-    let alignmentClasses = 'col-span-3 text-center'; // Default alignment
+    // let alignmentClasses = 'col-span-3 text-center'; // Default alignment
     let markerSource = '../timeline/timeline_circle.png';
     let markerName = 'Timeline Circle';
     
-    if (direction === 'left') {
-      alignmentClasses = 'col-span-1 text-left';
-    } else if (direction === 'right') {
-      alignmentClasses = 'col-span-1 text-right';
-    }
+    // if (direction === 'left') {
+    //   alignmentClasses = 'col-span-1 text-left';
+    // } else if (direction === 'right') {
+    //   alignmentClasses = 'col-span-1 text-right';
+    // }
 
     if (shape === 'triangle') {
         markerSource = '../timeline/timeline_triangle.png';
