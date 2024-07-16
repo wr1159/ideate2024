@@ -10,9 +10,10 @@ const WhatIsIdeate: React.FC = () => {
       <div className="relative flex flex-col w-full items-center justify-center">
         <div className="absolute inset-y-0 left-1/2 transform -translate-x-1/2 w-1 bg-white z-10"></div>
         <div className="z-20 p-8">
-          <TimelineItem title='Testing Left' date='12 aug' direction='left' shape='circle' />
-          <TimelineItem title='Testing Right' date='14 jan' direction='right' shape='triangle' />
-          <TimelineItem title={<div>Semi-Finals <span className="text-base lg:text-3xl">and</span> Finals</div>} date='urmom' direction='right' shape='triangle' />
+          <TimelineItem title='Opening Day' date='17 Aug 2024' direction='left' shape='circle' />
+          <TimelineItem title='Workshops' date='Week 1 - Week 2' direction='right' shape='triangle' />
+          <TimelineItem title='Preliminary Design Review' date='30 Aug 2024' direction='left' shape='square' />
+          <TimelineItem title={<div>Semi-Finals <span className="text-base lg:text-3xl">and</span> Finals</div>} date='20 Sep 2024' direction='right' shape='circle' />
         </div>
       </div>
     </div>

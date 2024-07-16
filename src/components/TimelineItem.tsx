@@ -8,7 +8,7 @@ type TimelineItemProps = {
     shape: 'circle' | 'triangle' | 'square';
   };
   
-  const TimelineItem: React.FC<TimelineItemProps> = ({ title, direction, shape }) => {
+  const TimelineItem: React.FC<TimelineItemProps> = ({ title, date, desc, direction, shape }) => {
     let alignmentClasses = 'col-span-3 text-center'; // Default alignment
     let markerSource = '../timeline/timeline_circle.png';
     let markerName = 'Timeline Circle';
@@ -29,14 +29,20 @@ type TimelineItemProps = {
     }
   
     return (
-        <div className="w-full grid grid-cols-3">
+        <div className="w-full h-28 lg:h-48 grid grid-cols-3 ">
         {/* Empty column on the left for 'right' direction */}
         {direction === 'right' && <div className="col-span-1"></div>}
         
         {/* Text in the left column if direction is 'left' */}
         {direction === 'left' && (
             <div className="col-span-1 text-left">
-                {title}
+                <p className="white-text-outline uppercase text-[#152cc5] text-base lg:text-3xl">
+                    {date}
+                </p>
+                <p className="uppercase">
+                    {title}
+                </p>
+                <p className="mt-2 lg:mt-4 text-sm xs:text-base lg:text-3xl">{desc}</p>
             </div>
         )}
         
@@ -53,8 +59,14 @@ type TimelineItemProps = {
         
         {/* Text in the right column if direction is 'right' */}
         {direction === 'right' && (
-            <div className="col-span-1 text-right">
-            {title}
+            <div className="col-span-1 text-right uppercase">
+                <p className="white-text-outline uppercase text-[#152cc5] text-base lg:text-3xl">
+                    {date}
+                </p>
+                <p className="uppercase">
+                    {title}
+                </p>
+                <p className="mt-2 lg:mt-4 text-sm xs:text-base lg:text-3xl">{desc}</p>
             </div>
         )}
     </div>
