@@ -10,7 +10,7 @@ const WhatIsIdeate: React.FC = () => {
         aimed at challenging university students in Singapore to envision and 
         create innovative solutions that enhance everyday living. 
         </p>
-        <div className="bg-gray-500 w-48 h-24 lg:w-96 lg:h-48 mr-8" />
+        <img src="../theme/triangle_block.png" alt="Triangle block" className="h-24 lg:h-48 ml-8" />
       </div>
       <div className="flex text-right">
         <img

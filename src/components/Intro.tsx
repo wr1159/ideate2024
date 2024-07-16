@@ -6,7 +6,7 @@ const Intro: React.FC = () => {
       <p className="max-w-[75vw] place-self-start">
         An annual makethon organised by iDP Student Club
       </p>
-      <div className="bg-gray-100 rounded-md w-48 h-48 lg:w-96 lg:h-96 place-self-end" />
+      <img src="../theme/bulb_with_house.png" alt="Innovation & Design Programme Students Club Logo" className="h-48 lg:-mt-10 lg:h-96 place-self-end" />
     </div>
   );
 };
