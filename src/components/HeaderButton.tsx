@@ -4,11 +4,12 @@ import { Link } from 'react-scroll';
 type ButtonProps = {
   buttonName: string;
   buttonId: string;
+  onClick: () => void;
 };
 
-const HeaderButton: React.FC<ButtonProps> = ({ buttonName, buttonId }) => {
+const HeaderButton: React.FC<ButtonProps> = ({ buttonName, buttonId, onClick}) => {
   return (
-    <div className="text-xs md:text-sm lg:text-lg text-center uppercase">
+    <div className="text-xs md:text-sm lg:text-lg text-center uppercase" onClick={onClick}>
       <Link
         to={buttonId}
         smooth={true}
