@@ -12,7 +12,6 @@ type TimelineItemProps = {
     let alignmentClasses = 'col-span-3 text-center'; // Default alignment
     let markerSource = '../timeline/timeline_circle.png';
     let markerName = 'Timeline Circle';
-    let markerSize = 'w-10 h-10 lg:w-20 lg:h-20';
     
     if (direction === 'left') {
       alignmentClasses = 'col-span-1 text-left';
@@ -50,7 +49,7 @@ type TimelineItemProps = {
             <img
             src={markerSource}
             alt={markerName}
-            className={markerSize}
+            className='w-10 h-10 lg:w-20 lg:h-20 object-contain'
             />
         </div>
         
