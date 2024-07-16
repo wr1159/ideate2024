@@ -38,8 +38,8 @@ const { title } = Astro.props;
 	}
 
 	.rounded-square-mask {
-		height: 6rem; /* Equivalent to h-24 */
-		min-width: 6rem; /* Equivalent to min-w-24 */
+		height: 12rem; /* Equivalent to h-24 */
+		min-width: 12rem; /* Equivalent to min-w-24 */
 		border-radius: 0.375rem; /* Equivalent to rounded-md */
 		background-color: #f3f4f6; /* Equivalent to bg-gray-100 */
 		overflow: hidden; 
@@ -48,10 +48,15 @@ const { title } = Astro.props;
 		align-items: center;
 		justify-content: center;
 
-		/* For large screens and above */
-		@media (min-width: 1024px) {
+		/* For large screens and above */ @media (min-width: 1024px) {
 			height: 12rem; /* Equivalent to lg:h-48 */
-			width: 12rem; /* Equivalent to lg:w-48 */
+			width: 24rem; /* Equivalent to lg:w-48 */
+		}
+
+		/* For large screens and above */
+		@media (min-width: 1440px) {
+			height: 20rem; /* Equivalent to lg:h-64 */
+			width: 20rem; /* Equivalent to lg:w-64 */
 		}
 	}
 

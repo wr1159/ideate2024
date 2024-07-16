@@ -7,8 +7,7 @@ const Sponsor: React.FC = () => {
       <p className="uppercase pb-8 lg:pb-16">
         Venues <span className="text-base lg:text-2xl">and</span> Facilities
       </p>
-      {/* TODO: Add Carousel */}
-      <div className="grid lg:px-16 gap-4 max-w-[80vw] grid-cols-3">
+      <div className="grid lg:px-16 gap-4 max-w-[80vw] grid-cols-1 xl:grid-cols-3">
         <VenueItem imageUrl="../venues/idp_hub.png" text='IDP Hub' />
         <VenueItem imageUrl="../venues/ascent.png" text='Ascent @ SciencePark' />
         <VenueItem imageUrl="../venues/electronics_lab.png" text='Electronics Lab @ E2A' />
