@@ -14,7 +14,6 @@ const { title } = Astro.props;
 		<meta name="description" content="IDEATE 2024 | A Design Thinking Makeathon" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="stylesheet" href="../../global.css" />
 		<title>{title}</title>
 	</head>
 	<body class="bg-[#152cc5] min-h-screen"
@@ -29,3 +28,11 @@ const { title } = Astro.props;
 		background: #13151a;
 		background-size: 224px;
 	}
+
+	.white-text-outline {
+  text-shadow: 
+    1px 1px 0 white, 
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px white;
+}
