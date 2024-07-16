@@ -11,7 +11,7 @@ const Theme: React.FC = () => {
         <img
           src="../theme/triangle_block.png"
           alt="Triangle Block"
-          className="h-[18vw] w-[18vw]"
+          className="h-[19vw] w-[19vw]"
         />
         <img
           src="../theme/bulb_with_house.png"
@@ -21,7 +21,7 @@ const Theme: React.FC = () => {
         <img
           src="../theme/square_block.png"
           alt="Square Block"
-          className="h-[14vw] w-[14vw]"
+          className="h-[14.5vw] w-[14.5vw]"
         />
       </div>
     </div>
