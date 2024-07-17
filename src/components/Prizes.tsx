@@ -53,10 +53,10 @@ const Prizes: React.FC = () => {
             </p>
             <p className="text-sm md:text-base lg:text-2xl font-poppins">
               <ul className="list-disc text-left pl-5">
-                <li key='1' className="text-sm md:text-base lg:text-2xl font-poppins font-thin">
+                <li key='1' className="text-sm md:text-base lg:text-2xl font-poppins">
                   Greenlane for Top 3 NUS teams to incubate their solution with <span className="font-semibold">THE HANGAR</span>
                 </li>
-                <li key='2' className="text-sm md:text-base lg:text-2xl font-poppins font-thin">
+                <li key='2' className="text-sm md:text-base lg:text-2xl font-poppins">
                   Greenlane for Top 3 NUS teams to pitch for Venture Initiation Programme (VIP) S$10000 grant
                 </li>
               </ul>
