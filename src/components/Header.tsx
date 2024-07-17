@@ -19,7 +19,7 @@ const Header: React.FC = () => {
     <header className={twMerge("fixed top-0 left-0 w-full bg-gray-800 text-white p-4 flex justify-between items-center z-50 transition-all")}>
       <div className={twMerge("flex items-center w-full",isSidebarOpen && 'flex-col')}>
         <button
-          className={twMerge("text-white focus:outline-none w-full md:hidden")}
+          className={twMerge("text-white focus:outline-none w-full lg:hidden")}
           onClick={toggleSidebar}
         >
           <svg
@@ -39,7 +39,7 @@ const Header: React.FC = () => {
         </button>
         <nav
           className={twMerge(
-            "overflow hidden md:flex gap-4 mt-4 md:mt-0 content-center md:mx-auto",
+            "overflow hidden lg:flex gap-4 mt-4 md:mt-0 content-center md:mx-auto",
             isSidebarOpen && "flex-col flex w-full"
           )}
         >
@@ -52,14 +52,9 @@ const Header: React.FC = () => {
           <HeaderButton buttonName="Workshops" buttonId="workshops" onClick={turnOffSidebar}/>
           <HeaderButton buttonName="Venue" buttonId="venue" onClick={turnOffSidebar}/>
           <HeaderButton buttonName="Register" buttonId="register-now" onClick={turnOffSidebar}/>
+          <HeaderButton buttonName="Contact Us" buttonId="contact-us" onClick={turnOffSidebar}/>
         </nav>
       </div>
-      {/* <div
-        className={`${
-          isSidebarOpen ? "block" : "hidden"
-        } fixed top-0 left-0 w-full h-full z-0`}
-        onClick={toggleSidebar}
-      /> */}
     </header>
   );
 };

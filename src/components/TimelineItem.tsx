@@ -39,7 +39,7 @@ type TimelineItemProps = {
                 <p className={(textColor === 'blue' ? 'blue-text-outline text-white ': 'white-text-outline text-[#1C34D4] ') + `text-base lg:text-3xl`}>
                     {date}
                 </p>
-                <p>
+                <p className="text-sm xs:text-lg sm:text-2xl lg:text-4xl uppercase">
                     {title}
                 </p>
                 <p className="mt-2 lg:mt-4 text-sm xs:text-base lg:text-3xl">{desc}</p>
@@ -63,7 +63,7 @@ type TimelineItemProps = {
                 <p className={(textColor === 'blue' ? 'blue-text-outline text-white ': 'white-text-outline text-[#1C34D4] ') + `text-base lg:text-3xl`}>
                     {date}
                 </p>
-                <p>
+                <p className="text-sm xs:text-lg sm:text-2xl lg:text-4xl uppercase">
                     {title}
                 </p>
                 <p className="mt-2 lg:mt-4 text-sm xs:text-base lg:text-3xl">{desc}</p>
