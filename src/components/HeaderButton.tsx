@@ -9,7 +9,7 @@ type ButtonProps = {
 
 const HeaderButton: React.FC<ButtonProps> = ({ buttonName, buttonId, onClick}) => {
   return (
-    <div className="text-xs md:text-sm lg:text-lg text-center uppercase" onClick={onClick}>
+    <div className="rounded-md text-xs md:text-sm lg:text-lg text-center uppercase" onClick={onClick}>
       <Link
         to={buttonId}
         smooth={true}

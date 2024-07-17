@@ -9,7 +9,7 @@ const WhatIsIdeate: React.FC = () => {
       </p>
       <div className="relative flex flex-col w-full items-center justify-center">
         <div className="absolute inset-y-0 left-1/2 transform -translate-x-1/2 w-1 bg-white z-10"></div>
-        <div className="z-20 p-8">
+        <div className="z-20 p-2 lg:p-8">
           <TimelineItem title='Opening Day' date='17 Aug 2024' direction='left' shape='circle' />
           <TimelineItem title='Workshops' date='Week 1 - Week 2' direction='right' shape='triangle' />
           <TimelineItem title='Preliminary Design Review' date='30 Aug 2024' direction='left' shape='square' />
