@@ -8,17 +8,18 @@ const Workshops: React.FC = () => {
         Workshops
       </p>
       <div className="relative flex flex-col w-full items-center justify-center">
-        <div className="absolute inset-y-0 left-1/2 transform -translate-x-1/2 w-1 bg-white z-10"></div>
-        <div className="z-20 p-2 lg:p-8">
-          <TimelineItem title='CAD (Solidworks)' date='21 Aug 2024' direction='left' shape='triangle' />
-          <TimelineItem title='C++' date='22 Aug 2024' direction='right' shape='square' />
-          <TimelineItem title='Arduino Workshop' date='23 Aug 2024' direction='left' shape='circle' />
-          <TimelineItem title='Electro Mechanical Workshop' date='24 Aug 2024' direction='right' shape='triangle' />
-          <TimelineItem title='VR App Development / Vacuum Forming' date='26 Aug 2024' direction='left' shape='square' />
-          <TimelineItem title='Robotics Simulation / Conventional Lathe' date='27 Aug 2024' direction='right' shape='circle' />
-          <TimelineItem title='Robotics Simulation / Conventional Milling' date='28 Aug 2024' direction='left' shape='triangle' />
-          <TimelineItem title='PCB Design' date='29 Aug 2024' direction='right' shape='square' />
-          <TimelineItem title='Business Model & Pitching' date='06 Sep 2024' direction='left' shape='circle' />
+        <div className="absolute h-full left-1/2 transform -translate-x-1/2 w-1 bg-[#1C34D4] z-20" />
+        <div className="absolute inset-0 bg-white z-0 rounded-md"></div>
+        <div className="z-30 p-8">
+          <TimelineItem title='CAD (Solidworks)' date='21 Aug 2024' direction='left' shape='triangle' textColor='blue'/>
+          <TimelineItem title='C++' date='22 Aug 2024' direction='right' shape='square' textColor='blue'/>
+          <TimelineItem title='Arduino Workshop' date='23 Aug 2024' direction='left' shape='circle' textColor='blue'/>
+          <TimelineItem title='Electro Mechanical Workshop' date='24 Aug 2024' direction='right' shape='triangle' textColor='blue'/>
+          <TimelineItem title='VR App Development / Vacuum Forming' date='26 Aug 2024' direction='left' shape='square' textColor='blue'/>
+          <TimelineItem title='Robotics Simulation / Conventional Lathe' date='27 Aug 2024' direction='right' shape='circle' textColor='blue'/>
+          <TimelineItem title='Robotics Simulation / Conventional Milling' date='28 Aug 2024' direction='left' shape='triangle' textColor='blue'/>
+          <TimelineItem title='PCB Design' date='29 Aug 2024' direction='right' shape='square' textColor='blue'/>
+          <TimelineItem title='Business Model & Pitching' date='06 Sep 2024' direction='left' shape='circle' textColor='blue'/>
         </div>
       </div>
     </div>
