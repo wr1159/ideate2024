@@ -16,7 +16,6 @@ const ContactUs: React.FC = () => {
           <a
             href="mailto:idp.studentsclub@u.nus.edu"
             target="_blank"
-            className="mt-2"
           >
             <img
               src="../title/mail_button.png"
