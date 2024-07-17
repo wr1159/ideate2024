@@ -12,10 +12,10 @@ const Hero: React.FC = () => {
               className="h-8 md:h-12 lg:h-20 align-start"
             />
           </a>
-          <a href="https://instagram.com/nusidp" target="_blank">
+          <a href="mailto:idp.studentsclub@u.nus.edu">
             <img
               src="../title/mail_button.png"
-              alt="Instagram button"
+              alt="Mail button"
               className="h-10 md:h-16 lg:h-28"
             />
           </a>
