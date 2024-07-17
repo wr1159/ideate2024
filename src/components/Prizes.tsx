@@ -52,7 +52,7 @@ const Prizes: React.FC = () => {
               Opportunities
             </p>
             <p className="text-sm md:text-base lg:text-2xl font-poppins">
-              <ul className="list-disc pl-5">
+              <ul className="list-disc text-left pl-5">
                 <li key='1' className="text-sm md:text-base lg:text-2xl font-poppins font-thin">
                   Greenlane for Top 3 NUS teams to incubate their solution with <span className="font-semibold">THE HANGAR</span>
                 </li>
