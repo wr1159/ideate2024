@@ -6,18 +6,19 @@ type TimelineItemProps = {
     desc?: React.ReactNode | null;
     direction: 'left' | 'center' | 'right';
     shape: 'circle' | 'triangle' | 'square';
+    textColor?: 'blue' | null;
   };
   
-  const TimelineItem: React.FC<TimelineItemProps> = ({ title, date, desc, direction, shape }) => {
-    // let alignmentClasses = 'col-span-3 text-center'; // Default alignment
+  const TimelineItem: React.FC<TimelineItemProps> = ({ title, date, desc, direction, shape, textColor }) => {
+    let alignmentClasses = 'col-span-3 text-center'; // Default alignment
     let markerSource = '../timeline/timeline_circle.png';
     let markerName = 'Timeline Circle';
     
-    // if (direction === 'left') {
-    //   alignmentClasses = 'col-span-1 text-left';
-    // } else if (direction === 'right') {
-    //   alignmentClasses = 'col-span-1 text-right';
-    // }
+    if (direction === 'left') {
+      alignmentClasses = 'col-span-1 text-left';
+    } else if (direction === 'right') {
+      alignmentClasses = 'col-span-1 text-right';
+    }
 
     if (shape === 'triangle') {
         markerSource = '../timeline/timeline_triangle.png';
@@ -34,11 +35,11 @@ type TimelineItemProps = {
         
         {/* Text in the left column if direction is 'left' */}
         {direction === 'left' && (
-            <div className="col-span-1 text-left">
-                <p className="white-text-outline uppercase text-[#152cc5] text-base lg:text-3xl">
+            <div className={ `col-span-1 text-left uppercase ` + (textColor === 'blue' ? 'text-[#1C34D4]' : '')}>
+                <p className={(textColor === 'blue' ? 'blue-text-outline text-white ': 'white-text-outline text-[#1C34D4] ') + `text-base lg:text-3xl`}>
                     {date}
                 </p>
-                <p className="uppercase">
+                <p>
                     {title}
                 </p>
                 <p className="mt-2 lg:mt-4 text-sm xs:text-base lg:text-3xl">{desc}</p>
@@ -58,11 +59,11 @@ type TimelineItemProps = {
         
         {/* Text in the right column if direction is 'right' */}
         {direction === 'right' && (
-            <div className="col-span-1 text-right uppercase">
-                <p className="white-text-outline uppercase text-[#152cc5] text-base lg:text-3xl">
+            <div className={ `col-span-1 text-right uppercase ` + (textColor === 'blue' ? 'text-[#1C34D4]' : '')}>
+                <p className={(textColor === 'blue' ? 'blue-text-outline text-white ': 'white-text-outline text-[#1C34D4] ') + `text-base lg:text-3xl`}>
                     {date}
                 </p>
-                <p className="uppercase">
+                <p>
                     {title}
                 </p>
                 <p className="mt-2 lg:mt-4 text-sm xs:text-base lg:text-3xl">{desc}</p>
