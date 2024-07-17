@@ -11,16 +11,16 @@ const Sponsor: React.FC = () => {
         <img
           src="../registration/lit_bulb_head.png"
           alt="Lit Bulb Head"
-          className="h-48 lg:min-h-72 grayscale group-hover:grayscale-0 absolute transition-all"
+          className="h-48 lg:min-h-72 lg:grayscale group-hover:grayscale-0 absolute transition-all"
         />
         <p className="z-40 lg:text-3xl text-base">Register Here</p>
       </a>
       <img
         src="../registration/bulb_screw.png"
         alt="Bulb Screw"
-        className="h-16 lg:h-28"
+        className="h-16 lg:h-28 grayscale lg:grayscale-0"
       />
-      <p className="uppercase pb-8 lg:pb-16">See You There</p>
+      <p className="uppercase pb-8  lg:pb-16">See You There</p>
     </div>
   );
 };
