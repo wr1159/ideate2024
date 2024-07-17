@@ -17,6 +17,9 @@ dependencies:
   '@fontsource/peace-sans':
     specifier: ^5.0.11
     version: 5.0.11
+  '@fontsource/poppins':
+    specifier: ^5.0.14
+    version: 5.0.14
   '@types/react':
     specifier: ^18.3.3
     version: 18.3.3
@@ -719,6 +722,10 @@ packages:
 
   /@fontsource/peace-sans@5.0.11:
     resolution: {integrity: sha512-YwaWVWL7YgE5W8XjF+v0OGb8t1L9fTw2f8JyM6uh68SnW2Y8ibneMfvsp3Qm3fK/OwFFohgRTRUjnMC6/Yy/fQ==}
+    dev: false
+
+  /@fontsource/poppins@5.0.14:
+    resolution: {integrity: sha512-nmM1zpPo3Uh4JcGAVSQuWaZNYh2FbbwWhZ5t6hRaynmJaNTBW85d3nEh9zMmzI0HX7X5xqQVdRHeDatKpOGsnA==}
     dev: false
 
   /@img/sharp-darwin-arm64@0.33.4:
