@@ -38,7 +38,7 @@ type TimelineItemProps = {
                 <p className="white-text-outline uppercase text-[#152cc5] text-base lg:text-3xl">
                     {date}
                 </p>
-                <p className="uppercase">
+                <p className="text-sm xs:text-lg sm:text-2xl lg:text-4xl uppercase">
                     {title}
                 </p>
                 <p className="mt-2 lg:mt-4 text-sm xs:text-base lg:text-3xl">{desc}</p>
@@ -62,7 +62,7 @@ type TimelineItemProps = {
                 <p className="white-text-outline uppercase text-[#152cc5] text-base lg:text-3xl">
                     {date}
                 </p>
-                <p className="uppercase">
+                <p className="text-sm xs:text-lg sm:text-2xl lg:text-4xl uppercase">
                     {title}
                 </p>
                 <p className="mt-2 lg:mt-4 text-sm xs:text-base lg:text-3xl">{desc}</p>
