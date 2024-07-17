@@ -40,8 +40,28 @@ const Prizes: React.FC = () => {
           />
           {/* <div className="rounded-2xl bg-gray-100 w-24 h-16 xs:h-32 xs:w-60 lg:h-36 lg:w-72 xl:w-96 xl:h-48" />
           <p>3rd</p> */}
+
+          {/* and more */}
         </div>
       </div>
+          <div className="items-center justify-center text-center">
+            <p className="text-base lg:text-4xl uppercase mb-10">
+              And more prizes to be won!
+            </p>
+            <p className="text-base lg:text-4xl uppercase">
+              Opportunities
+            </p>
+            <p className="text-sm md:text-base lg:text-2xl font-poppins">
+              <ul className="list-disc pl-5">
+                <li key='1' className="text-sm md:text-base lg:text-2xl font-poppins font-thin">
+                  Greenlane for Top 3 NUS teams to incubate their solution with <span className="font-semibold">THE HANGAR</span>
+                </li>
+                <li key='2' className="text-sm md:text-base lg:text-2xl font-poppins font-thin">
+                  Greenlane for Top 3 NUS teams to pitch for Venture Initiation Programme (VIP) S$10000 grant
+                </li>
+              </ul>
+            </p>
+          </div>
     </div>
   );
 };
