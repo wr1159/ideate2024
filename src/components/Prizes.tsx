@@ -57,7 +57,7 @@ const Prizes: React.FC = () => {
                   Greenlane for Top 3 NUS teams to incubate their solution with <span className="font-semibold">THE HANGAR</span>
                 </li>
                 <li key='2' className="text-sm md:text-base lg:text-2xl font-poppins">
-                  Greenlane for Top 3 NUS teams to pitch for Venture Initiation Programme (VIP) S$10000 grant
+                  Greenlane for Top 3 NUS teams to pitch for Venture Initiation Programme (VIP) <span className="font-semibold">Impact</span> S$10,000 grant
                 </li>
               </ul>
             </p>

@@ -26,7 +26,13 @@ const WhatIsIdeate: React.FC = () => {
             shape='square' 
           />
           <TimelineItem 
-            title={<p className="text-sm xs:text-xl sm:text-3xl lg:text-5xl">Semi-Finals <span className="text-base lg:text-3xl">and</span> Finals</p>} 
+            title={
+              <p className="text-sm xs:text-xl sm:text-3xl lg:text-5xl">
+                <span className="whitespace-nowrap">Semi-Finals </span> 
+                <span className="text-xs lg:text-3xl">and </span> 
+                Finals
+              </p>
+            } 
             date='21 Sep 2024' 
             shape='circle' 
           />
