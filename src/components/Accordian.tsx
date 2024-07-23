@@ -2,22 +2,20 @@ import React, { useState } from 'react';
 
 interface AccordionProps {
   title: string;
-  content: string;
+  content: React.ReactNode;
 }
 
 const Accordion: React.FC<AccordionProps> = ({ title, content }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleAccordion = () => {
-    console.log('Button clicked');
-
     setIsOpen(!isOpen);
   };
 
   return (
     <div className="border-b border-gray-200">
       <button
-        className="flex justify-between items-center w-full p-4 text-left focus:outline-none"
+        className="cursor-pointer hover:bg-gray-700 hover:bg-opacity-30 rounded-md transition duration-300 flex justify-center items-center w-full p-4 text-left focus:outline-none"
         onClick={toggleAccordion}
       >
         <span className="text-lg font-medium">{title}</span>
@@ -32,8 +30,8 @@ const Accordion: React.FC<AccordionProps> = ({ title, content }) => {
         </svg>
       </button>
       {isOpen && (
-        <div className="p-4">
-          <p>{content}</p>
+        <div className="p-4 bg-gray-700 bg-opacity-30 rounded-md">
+          <span>{content}</span>
         </div>
       )}
     </div>
