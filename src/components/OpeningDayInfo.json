@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "timeStart": "0945",
+      "timeEnd": "1020",
+      "description": "Registration"
+    },
+    {
+      "id": 2,
+      "timeStart": "1030",
+      "timeEnd": "1055",
+      "description": "Opening for IDEATE 2024"
+    },
+    {
+      "id": 3,
+      "timeStart": "1100",
+      "timeEnd": "1100",
+      "description": "Speech by Guest of Honor"
+    },
+    {
+      "id": 4,
+      "timeStart": "1110",
+      "timeEnd": "1140",
+      "description": "Introduction to Competition"
+    },
+    {
+      "id": 5,
+      "timeStart": "1145",
+      "timeEnd": "1315",
+      "description": "Lunch and Networking"
+    },
+    {
+      "id": 6,
+      "timeStart": "1325",
+      "timeEnd": "1440",
+      "description": "Design Workshop"
+    },
+    {
+      "id": 7,
+      "timeStart": "1440",
+      "timeEnd": "1445",
+      "description": "Closing"
+    }
+]
+  
