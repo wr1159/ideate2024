@@ -44,24 +44,44 @@ const Prizes: React.FC = () => {
           {/* and more */}
         </div>
       </div>
-          <div className="items-center justify-center text-center">
-            <p className="text-base lg:text-4xl uppercase mb-10">
-              And more prizes to be won!
-            </p>
-            <p className="text-base lg:text-4xl uppercase">
-              Opportunities
-            </p>
-            <p className="text-sm md:text-base lg:text-2xl font-poppins">
-              <ul className="list-disc text-left pl-5">
-                <li key='1' className="text-sm md:text-base lg:text-2xl font-poppins">
-                  Greenlane for Top 3 NUS teams to incubate their solution with <span className="font-semibold">THE HANGAR</span>
-                </li>
-                <li key='2' className="text-sm md:text-base lg:text-2xl font-poppins">
-                  Greenlane for Top 3 NUS teams to pitch for Venture Initiation Programme (VIP) <span className="font-semibold">Impact</span> S$10,000 grant
-                </li>
-              </ul>
-            </p>
-          </div>
+      <div className="items-center justify-center text-center">
+        <p className="text-base lg:text-4xl uppercase mb-10">
+          And more prizes to be won!
+        </p>
+        <p className="text-base lg:text-4xl uppercase">Opportunities</p>
+        <p className="text-sm md:text-base lg:text-2xl font-poppins">
+          <ul className="list-disc text-left pl-5">
+            <li
+              key="1"
+              className="text-sm md:text-base lg:text-2xl font-poppins"
+            >
+              Greenlane for Top 3 NUS teams to incubate their solution with{" "}
+              <a
+                className="underline text-gray-300 hover:text-white"
+                href="https://enterprise.nus.edu.sg/supporting-entrepreneurs/nus-startup-runway/the-hangar/"
+                target="_blank"
+              >
+                <span className="font-semibold">THE HANGAR</span>
+              </a>
+            </li>
+            <li
+              key="2"
+              className="text-sm md:text-base lg:text-2xl font-poppins"
+            >
+              Greenlane for Top 3 NUS teams to pitch for{" "}
+              <a
+                className="underline text-gray-300 hover:text-white"
+                href="https://enterprise.nus.edu.sg/funding/nus-venture-initiation-programme-impact-track/"
+                target="_blank"
+              >
+                Venture Initiation Programme (VIP){" "}
+                <span className="font-semibold">Impact</span>
+              </a>{" "}
+              S$10,000 grant
+            </li>
+          </ul>
+        </p>
+      </div>
     </div>
   );
 };
