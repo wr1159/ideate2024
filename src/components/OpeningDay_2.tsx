@@ -1,5 +1,5 @@
 import React from "react";
-import data from './SemisAndFinalsInfo.json';
+import data from './OpeningDayInfo.json';
 
 interface DataItem {
     id: number;
@@ -16,7 +16,7 @@ const OpeningDay: React.FC = () => {
     return (
         <div className="flex flex-col items-center justify-center gap-x-4 text-2xl lg:text-7xl lg:pt-16 pt-8 pb-12 min-h-[50vh] gap-y-8 px-4 lg:px-8">
             <p className="uppercase pt-20 pb-4 lg:pb-8">
-                Semi Finals <span className="text-base lg:text-2xl">and</span> Finals
+                Opening Day
             </p>
             <div className="relative flex flex-col items-center justify-center">
                 <div className="absolute h-full left-1/2 transform -translate-x-1/2 w-1 bg-white rounded-md z-20" />

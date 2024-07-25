@@ -8,9 +8,11 @@ import Theme from '../components/Theme';
 import Prizes from '../components/Prizes';
 import Timeline2 from '../components/Timeline_2';
 import OpeningDay from '../components/OpeningDay';
+import OpeningDay2 from '../components/OpeningDay_2';
 import SemisAndFinals from '../components/SemisAndFinals';
 import Workshops from '../components/Workshops';
 import Venue from '../components/Venue';
+import FAQ from '../components/FAQ';
 import RegisterNow from '../components/RegisterNow';
 import ContactUs from '../components/ContactUs';
 
@@ -47,10 +49,10 @@ import Header from '../components/Header';
       <Prizes />
     </section>
     <section id="timeline2">
-      <Timeline2 />
+      <Timeline2 client:load/>
     </section>
     <section id="opening-day">
-      <OpeningDay />
+      <OpeningDay2 />
     </section>
     <section id="semis-and-finals">
       <SemisAndFinals />
@@ -60,6 +62,9 @@ import Header from '../components/Header';
     </section>
     <section id="venue">
       <Venue />
+    </section>
+    <section id="faq">
+      <FAQ client:load/>
     </section>
     <section id="register-now">
       <RegisterNow />

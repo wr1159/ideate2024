@@ -2,36 +2,42 @@
 [
     {
       "id": 1,
+      "time": "0900 - 1000",
       "timeStart": "0900",
       "timeEnd": "1000",
       "description": "Check-in"
     },
     {
       "id": 2,
+      "time": "1000 - 1200",
       "timeStart": "1000",
       "timeEnd": "1200",
       "description": "Semi-Finals"
     },
     {
       "id": 3,
+      "time": "1200 - 1300",
       "timeStart": "1200",
       "timeEnd": "1300",
       "description": "Lunch"
     },
     {
       "id": 4,
+      "time": "1300 - 1415",
       "timeStart": "1300",
       "timeEnd": "1415",
       "description": "Finals: Top 6 Pitches"
     },
     {
       "id": 5,
+      "time": "1415 - 1435",
       "timeStart": "1415",
       "timeEnd": "1435",
       "description": "Award Ceremony"
     },
     {
       "id": 6,
+      "time": "1435 - 1500",
       "timeStart": "1435",
       "timeEnd": "1500",
       "description": "Closing Speech + Dismissal"
