@@ -7,9 +7,10 @@ type TimelineItemProps = {
     shape: 'circle' | 'triangle' | 'square';
     textColor?: 'blue' | null;
     link?: string | null;
+    time?: string | null;
   };
   
-  const TimelineItem: React.FC<TimelineItemProps> = ({ title, date, shape, textColor, link }) => {
+  const TimelineItem: React.FC<TimelineItemProps> = ({ title, date, shape, textColor, link, time }) => {
     let markerSource = '../timeline/timeline_circle.png';
     let markerName = 'Timeline Circle';
 
@@ -31,6 +32,7 @@ type TimelineItemProps = {
         <div className={`col-span-1 flex h-full uppercase items-center justify-end ${textColor === 'blue' ? 'text-[#1C34D4]' : ''}`}>
           <p className={`${textColor === 'blue' ? 'blue-text-outline text-white' : 'white-text-outline text-[#1C34D4]'} text-sm xs:text-lg sm:text-2xl lg:text-4xl whitespace-nowrap`}>
             {date}
+            {time}
           </p>
         </div>
         <div className='flex col-span-1 justify-center items-center'>
@@ -52,6 +54,7 @@ type TimelineItemProps = {
             <div className={ `col-span-1 flex h-full uppercase items-center justify-end` + (textColor === 'blue' ? ' text-[#1C34D4]' : '')}>
                 <p className={(textColor === 'blue' ? 'blue-text-outline text-white ': 'white-text-outline text-[#1C34D4] ') + `text-sm xs:text-lg sm:text-2xl lg:text-4xl whitespace-nowrap`}>
                     {date}
+                    {time}
                 </p>
             </div>
             

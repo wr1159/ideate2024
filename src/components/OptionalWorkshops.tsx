@@ -28,15 +28,9 @@ const Workshops: React.FC = () => {
             textColor='blue'
             />
           <TimelineItem 
-            title={<span className="text-xs xs:text-sm sm:text-base lg:text-2xl">Robotics Simulation / Conventional Milling</span>} 
+            title={<span className="text-xs xs:text-sm sm:text-base lg:text-2xl">PCB Design / Conventional Milling</span>} 
             date= {<span className="text-xs xs:text-sm sm:text-base lg:text-2xl">28 Aug 2024</span>}
             shape='square' 
-            textColor='blue'
-            />
-          <TimelineItem 
-            title={<span className="text-xs xs:text-sm sm:text-base lg:text-2xl">PCB Design</span>} 
-            date= {<span className="text-xs xs:text-sm sm:text-base lg:text-2xl">29 Aug 2024</span>}
-            shape='circle' 
             textColor='blue'
             />
         </div>

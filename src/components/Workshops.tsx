@@ -24,19 +24,19 @@ const Workshops: React.FC = () => {
               textColor='blue'
               />
             <TimelineItem 
-              title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">CAD (Solidworks)</span>} 
+              title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">CAD (Fusion360)</span>} 
               date='21 Aug 2024' 
               shape='square' 
               textColor='blue'
               />
             <TimelineItem 
-              title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">Arduino Workshop</span>} 
+              title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl leading-tight">Electro Mechanical Workshop</span>} 
               date='23 Aug 2024' 
               shape='circle' 
               textColor='blue'
               />
             <TimelineItem 
-              title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl leading-tight">Electro Mechanical Workshop</span>} 
+              title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">Arduino Workshop</span>} 
               date='24 Aug 2024' 
               shape='triangle' 
               textColor='blue'
