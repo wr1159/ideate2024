@@ -29,6 +29,8 @@ const Judges: React.FC = () => {
                     />
                     <Profile 
                         name='Mrs Ho Yuen Ping' 
+                        picture='../judges/yuen_ping.jpg'
+                        link='https://www.linkedin.com/in/yp-ho-304b08140/'
                     />
                 </div>
             </div>
