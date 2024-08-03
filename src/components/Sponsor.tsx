@@ -23,6 +23,13 @@ const Sponsor: React.FC = () => {
           className="w-64 xl:w-96 rounded-md p-4 bg-white "
         />
       </div>
+      <p className="text-2xl lg:text-4xl uppercase mb-4">Key Workshop Partner</p>
+        <img
+          src="../sponsors/DID_Logo.png"
+          alt="Division of Industrial Design"
+          className="w-64 xl:w-96 rounded-md p-4 bg-white "
+        />
+
     </div>
   );
 };
