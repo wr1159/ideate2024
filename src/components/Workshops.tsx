@@ -9,8 +9,11 @@ const Workshops: React.FC = () => {
       <span className="uppercase pb-4 lg:pb-8 align-middle mx-auto">
         Workshops
       </span>
+      <span className="text-xl lg:text-5xl uppercase pb-4 lg:pb-8 align-middle mx-auto">
+        Compulsory
+      </span>
       <span className="pb-8 lg:pb-16 align-middle font-poppins text-center mx-auto text-sm lg:text-xl">
-        Note: at least one member per team has to be present for each of these workshops
+        Note: All members of the team must be present
       </span>
       <div className="relative flex flex-col items-center">
         <div className="absolute inset-0 bg-white z-0 rounded-md" />
@@ -20,42 +23,25 @@ const Workshops: React.FC = () => {
             <TimelineItem 
               title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">Design Thinking Workshop</span>} 
               date='17 Aug 2024' 
-              shape='triangle' 
-              textColor='blue'
-              />
-            <TimelineItem 
-              title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">CAD (Fusion360)</span>} 
-              date='21 Aug 2024' 
-              shape='square' 
-              textColor='blue'
-              />
-            <TimelineItem 
-              title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl leading-tight">Electro Mechanical Workshop</span>} 
-              date='23 Aug 2024' 
               shape='circle' 
-              textColor='blue'
-              />
-            <TimelineItem 
-              title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">Arduino Workshop</span>} 
-              date='24 Aug 2024' 
-              shape='triangle' 
               textColor='blue'
               />
             <TimelineItem 
               title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">Business Model & Pitching</span>} 
               date='06 Sep 2024' 
-              shape='square' 
+              shape='triangle' 
               textColor='blue'
               />
           </div>
         </div>
       </div>
-      <Accordion 
+      {/* <Accordion 
         title='more'
         content={
           <OptionalWorkshops />
         }
-      />
+      /> */}
+          <OptionalWorkshops />
     </div>
   )
 };

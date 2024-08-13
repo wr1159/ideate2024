@@ -3,9 +3,12 @@ import TimelineItem from "./TimelineItem";
 
 const Workshops: React.FC = () => {
   return (
-    <div className="flex flex-col items-center text-lg xs:text-2xl lg:text-3xl xl:text-5xl lg:pt-16 pt-8 px-2 lg:px-16">
+    <div className="flex flex-col items-center text-lg xs:text-2xl lg:text-3xl xl:text-5xl lg:pt-16 pt-8 ">
       <span className="uppercase pb-8 lg:pb-16 align-middle mx-auto">
-        Optional Workshops
+        Optional 
+      </span>
+      <span className="pb-8 lg:pb-16 align-middle font-poppins text-center mx-auto text-sm lg:text-xl">
+        Note: due to overwhelming demand, we have made some workshops optional on a first come first serve basis
       </span>
       <div className="relative flex flex-col items-center">
         {/* white bg */}
@@ -16,20 +19,44 @@ const Workshops: React.FC = () => {
         {/* workshops */}
         <div className="z-30 p-2 lg:p-8">
           <TimelineItem 
-            title={<span className="text-xs xs:text-sm sm:text-base lg:text-2xl">VR App Development / Vacuum Forming</span>} 
-            date= {<span className="text-xs xs:text-sm sm:text-base lg:text-2xl">26 Aug 2024</span>}
+            title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">CAD (Fusion360)</span>} 
+            date= {<span className="text-xs xs:text-sm sm:text-base lg:text-2xl">19 Aug 2024</span>}
+            shape='square' 
+            textColor='blue'
+            />
+          <TimelineItem 
+            title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">C++</span>} 
+            date= {<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">22 Aug 2024</span>}
             shape='circle' 
             textColor='blue'
             />
           <TimelineItem 
-            title={<span className="text-xs xs:text-sm sm:text-base lg:text-2xl">Robotics Simulation / Conventional Lathe</span>} 
-            date= {<span className="text-xs xs:text-sm sm:text-base lg:text-2xl">27 Aug 2024</span>}
+            title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">VR App Development</span>} 
+            date= {<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">22 Aug 2024</span>}
             shape='triangle' 
             textColor='blue'
             />
           <TimelineItem 
-            title={<span className="text-xs xs:text-sm sm:text-base lg:text-2xl">PCB Design / Conventional Milling</span>} 
-            date= {<span className="text-xs xs:text-sm sm:text-base lg:text-2xl">28 Aug 2024</span>}
+            title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">Soldering</span>} 
+            date= {<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">23 Aug 2024</span>}
+            shape='square' 
+            textColor='blue'
+            />
+          <TimelineItem 
+            title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl leading-tight">Electro Mechanical Workshop</span>} 
+            date= {<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">23 Aug 2024</span>}
+            shape='circle' 
+            textColor='blue'
+            />
+          <TimelineItem 
+            title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">Arduino & ESP32 Workshop</span>} 
+            date= {<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">24 Aug 2024</span>}
+            shape='triangle' 
+            textColor='blue'
+            />
+          <TimelineItem 
+            title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">PCB Design</span>} 
+            date= {<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">27 Aug 2024</span>}
             shape='square' 
             textColor='blue'
             />
