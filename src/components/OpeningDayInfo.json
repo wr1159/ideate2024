@@ -8,8 +8,8 @@
     },
     {
       "id": 2,
-      "time": "1030 - 1055",
-      "timeStart": "1030",
+      "time": "1020 - 1055",
+      "timeStart": "1020",
       "timeEnd": "1055",
       "description": "Opening for IDEATE 2024"
     },
@@ -36,17 +36,17 @@
     },
     {
       "id": 6,
-      "time": "1325 - 1440",
-      "timeStart": "1325",
-      "timeEnd": "1440",
-      "description": "Design Thinking Workshop"
+      "time": "1315 - 1345",
+      "timeStart": "1315",
+      "timeEnd": "1345",
+      "description": "Move to Workshop Venues and Take Attendance"
     },
     {
       "id": 7,
-      "time": "1440 - 1445",
-      "timeStart": "1440",
-      "timeEnd": "1445",
-      "description": "Closing"
+      "time": "1400 - 1800",
+      "timeStart": "1400",
+      "timeEnd": "1800",
+      "description": "Design Thinking Workshop (Compulsory)"
     }
 ]
   
