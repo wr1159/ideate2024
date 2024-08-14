@@ -79,6 +79,11 @@ const Judges: React.FC = () => {
                         picture='../judges/yuen_ping.jpg'
                         link='https://www.linkedin.com/in/yp-ho-304b08140/'
                     />
+                    <Profile 
+                        name='Mr Richard Ng' 
+                        picture='../judges/richard_ng.jpg'
+                        link='https://www.linkedin.com/in/richardngwithmeaningfulpursuits/?originalSubdomain=sg'
+                    />
                 </div>
             </div>
         </div>
