@@ -54,7 +54,7 @@ const Judges: React.FC = () => {
                         link='https://www.linkedin.com/in/kok-kwong-koon-801725/?originalSubdomain=sg' 
                     />
                     <Profile 
-                        name='Prof Mark P. De Lessio' 
+                        name='Dr Mark P. De Lessio' 
                         picture='../judges/mark_p_de_lessio.png'
                         link='https://www.linkedin.com/in/drmarkdelessio/'
                     />
