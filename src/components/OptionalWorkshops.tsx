@@ -20,13 +20,13 @@ const Workshops: React.FC = () => {
         <div className="z-30 p-2 lg:p-8">
           <TimelineItem 
             title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">CAD (Fusion360)</span>} 
-            date= {<span className="text-xs xs:text-sm sm:text-base lg:text-2xl">19 Aug 2024</span>}
+            date= {<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">19 Aug 2024</span>}
             shape='square' 
             textColor='blue'
             />
           <TimelineItem 
             title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">C++</span>} 
-            date= {<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">22 Aug 2024</span>}
+            date= {<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">20 Aug 2024</span>}
             shape='circle' 
             textColor='blue'
             />
@@ -49,15 +49,15 @@ const Workshops: React.FC = () => {
             textColor='blue'
             />
           <TimelineItem 
-            title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">Arduino & ESP32 Workshop</span>} 
+            title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">PCB Design</span>} 
             date= {<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">24 Aug 2024</span>}
-            shape='triangle' 
+            shape='square' 
             textColor='blue'
             />
           <TimelineItem 
-            title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">PCB Design</span>} 
-            date= {<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">27 Aug 2024</span>}
-            shape='square' 
+            title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">Arduino & ESP32 Workshop</span>} 
+            date= {<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">26 Aug 2024</span>}
+            shape='triangle' 
             textColor='blue'
             />
         </div>
