@@ -3,10 +3,11 @@ import React from "react";
 type ProfileProps = {
     name: string;
     picture?: string | null;
+    title?: string | null;
     link?: string | null;
   }
 
-const Profile: React.FC<ProfileProps> = ( { name, picture, link }) => {
+const Profile: React.FC<ProfileProps> = ( { name, picture, link, title }) => {
     let image = '../judges/avatar-default.svg';
 
     if (picture) {
@@ -26,6 +27,7 @@ const Profile: React.FC<ProfileProps> = ( { name, picture, link }) => {
                 />
             </div>
             <span className="font-poppins text-center text-xl lg:text-3xl p-1 lg:p-2">{name}</span>
+            <span className="font-poppins text-center text-base lg:text-base p-1 lg:p-2">{title}</span>
         </a>
     ) : (
         <div className="relative flex flex-col w-60 items-center rounded-md transition duration-300 transform hover:bg-gray-700 hover:bg-opacity-30 p-3 lg:p-5">
