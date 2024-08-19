@@ -51,13 +51,13 @@ const Workshops: React.FC = () => {
           <TimelineItem 
             title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">PCB Design</span>} 
             date= {<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">24 Aug 2024</span>}
-            shape='square' 
+            shape='triangle' 
             textColor='blue'
             />
           <TimelineItem 
             title={<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">Arduino & ESP32 Workshop</span>} 
             date= {<span className="text-sm xs:text-lg sm:text-xl lg:text-4xl">26 Aug 2024</span>}
-            shape='triangle' 
+            shape='square' 
             textColor='blue'
             />
         </div>
