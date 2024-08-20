@@ -58,7 +58,8 @@ const Judges: React.FC = () => {
                         link='https://www.linkedin.com/in/luuk-eliens/?originalSubdomain=sg' 
                     />
                     <Profile 
-                        name='Mr Kok Kwong Koon' 
+                        name='Mr Koon Kok Kwong' 
+                        picture='../judges/koon_kok_kwong.jpg'
                         title='Chief Technology Officer - RIA Venture Capital'
                         link='https://www.linkedin.com/in/kok-kwong-koon-801725/?originalSubdomain=sg' 
                     />
