@@ -37,6 +37,7 @@ const Judges: React.FC = () => {
                 <div className="flex flex-col lg:flex-row">
                     <Profile 
                         name='Mr Nicholas Chew' 
+                        picture='../judges/nicholas_chew.jpg'
                     />
                     <Profile 
                         name='Mr Graham Zhu' 
