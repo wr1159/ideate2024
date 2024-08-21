@@ -54,6 +54,7 @@ const Judges: React.FC = () => {
                     />
                     <Profile 
                         name='Mr Luuk Eliens' 
+                        picture='../judges/luuk_eliens.jpg'
                         title='Co-Founding Managing Partner - Singapore Deep-Tech Alliance'
                         link='https://www.linkedin.com/in/luuk-eliens/?originalSubdomain=sg' 
                     />
