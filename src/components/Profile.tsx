@@ -18,7 +18,7 @@ const Profile: React.FC<ProfileProps> = ( { name, picture, link, title }) => {
         <a 
             href={link? link : "#"}
             target="_blank"
-            className="relative flex flex-col w-60 items-center cursor-pointer rounded-md transition duration-300 transform hover:bg-gray-700 hover:bg-opacity-30 p-3 lg:p-5">
+            className="relative flex flex-col w-60 items-center cursor-pointer rounded-md transition duration-300 transform md:hover:bg-gray-700 md:hover:bg-opacity-30 p-3 lg:p-5">
             <div className="absolute inset-0 profile-square-mask rounded-md p-2 lg:p-3">
                 <img
                     src={image}
@@ -30,7 +30,7 @@ const Profile: React.FC<ProfileProps> = ( { name, picture, link, title }) => {
             <span className="font-poppins text-center text-base lg:text-base p-1 lg:p-2">{title}</span>
         </a>
     ) : (
-        <div className="relative flex flex-col w-60 items-center rounded-md transition duration-300 transform hover:bg-gray-700 hover:bg-opacity-30 p-3 lg:p-5">
+        <div className="relative flex flex-col w-60 items-center rounded-md transition duration-300 transform md:hover:bg-gray-700 md:hover:bg-opacity-30 p-3 lg:p-5">
             <div className="absolute inset-0 profile-square-mask rounded-md p-2 lg:p-3">
                 <img
                     src={image}
