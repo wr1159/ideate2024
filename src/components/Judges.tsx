@@ -38,9 +38,14 @@ const Judges: React.FC = () => {
                     <Profile 
                         name='Mr Nicholas Chew' 
                         picture='../judges/nicholas_chew.jpg'
+                        title='Engineering Instructor - National University of Singapore'
+                        link='https://www.linkedin.com/in/nicholas-chew-122731227/'
                     />
                     <Profile 
                         name='Mr Graham Zhu' 
+                        picture='../judges/graham_zhu.jpeg'
+                        title='Engineering Instructor - National University of Singapore'
+                        link='https://www.linkedin.com/in/graham-zhu-796b61124/'
                     />
                 </div>
             </div>
