@@ -22,20 +22,6 @@ const Judges: React.FC = () => {
                         link='https://www.linkedin.com/in/shaoyu-cai-63a96523a/?originalSubdomain=sg'
                     />
                     <Profile 
-                        name='Mr Eugene Ee' 
-                        picture='../judges/eugene_ee.png'
-                        title='Engineering Instructor - National University of Singapore'
-                        link='https://www.linkedin.com/in/wheee54/?originalSubdomain=sg' 
-                    />
-                    <Profile 
-                        name='Mr Royston Shieh' 
-                        picture='../judges/royston_shieh.jpeg'
-                        title='Engineering Instructor - National University of Singapore'
-                        link='https://www.linkedin.com/in/royston-s-961b96118/'
-                    />
-                </div>
-                <div className="flex flex-col lg:flex-row">
-                    <Profile 
                         name='Mr Nicholas Chew' 
                         picture='../judges/nicholas_chew.jpg'
                         title='Engineering Instructor - National University of Singapore'

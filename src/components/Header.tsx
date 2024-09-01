@@ -48,6 +48,7 @@ const Header: React.FC = () => {
           <HeaderButton buttonName="Sponsors" buttonId="sponsor" onClick={turnOffSidebar}/>
           <HeaderButton buttonName="Theme" buttonId="theme" onClick={turnOffSidebar}/>
           <HeaderButton buttonName="Judges" buttonId="judges" onClick={turnOffSidebar}/>
+          <HeaderButton buttonName="Mentors" buttonId="mentors" onClick={turnOffSidebar}/>
           <HeaderButton buttonName="Prizes" buttonId="prizes" onClick={turnOffSidebar}/>
           <HeaderButton buttonName="Timeline" buttonId="timeline2" onClick={turnOffSidebar}/>
           <HeaderButton buttonName="Workshops" buttonId="workshops" onClick={turnOffSidebar}/>
