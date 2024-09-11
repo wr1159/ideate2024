@@ -31,6 +31,7 @@ const Mentors: React.FC = () => {
                 <div className="flex flex-col lg:flex-row">
                     <Profile 
                         name='Mr Sandeep Ranalkar' 
+                        picture='../mentors/industrial/sandeep_ranalkar.png'
                         title='Industry Principal Director - Digital Manufacturing & Operations | Accenture - Industry X (South East Asia)'
                         link='https://www.linkedin.com/in/sandeepranalkar/?originalSubdomain=my' 
                     />
