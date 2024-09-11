@@ -9,37 +9,44 @@
     },
     {
       "id": 2,
-      "time": "1000 - 1200",
+      "time": "1000 - 1130",
       "timeStart": "1000",
-      "timeEnd": "1200",
+      "timeEnd": "1130",
       "description": "Semi-Finals"
     },
     {
       "id": 3,
-      "time": "1200 - 1300",
-      "timeStart": "1200",
-      "timeEnd": "1300",
+      "time": "1130 - 1230",
+      "timeStart": "1130",
+      "timeEnd": "1230",
       "description": "Lunch"
     },
     {
       "id": 4,
-      "time": "1300 - 1415",
-      "timeStart": "1300",
-      "timeEnd": "1415",
+      "time": "1240 - 1355",
+      "timeStart": "1240",
+      "timeEnd": "1355",
       "description": "Finals: Top 6 Pitches"
     },
     {
       "id": 5,
-      "time": "1415 - 1435",
-      "timeStart": "1415",
-      "timeEnd": "1435",
-      "description": "Award Ceremony"
+      "time": "1400 - 1430",
+      "timeStart": "1400",
+      "timeEnd": "1430",
+      "description": "Fireside Chat"
     },
     {
       "id": 6,
-      "time": "1435 - 1500",
+      "time": "1430 - 1445",
+      "timeStart": "1430",
+      "timeEnd": "1445",
+      "description": "Award Ceremony"
+    },
+    {
+      "id": 7,
+      "time": "1445 - 1500",
       "timeStart": "1435",
       "timeEnd": "1500",
-      "description": "Closing Speech + Dismissal"
+      "description": "Closing Speech"
     }
 ]
