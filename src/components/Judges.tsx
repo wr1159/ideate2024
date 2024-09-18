@@ -89,10 +89,10 @@ const Judges: React.FC = () => {
                         link='https://www.linkedin.com/in/yp-ho-304b08140/'
                     />
                     <Profile 
-                        name='Mr Richard Ng' 
-                        picture='../judges/richard_ng.jpg'
-                        title='Business Development Professional - ST Engineering Urban Solutions'
-                        link='https://www.linkedin.com/in/richardngwithmeaningfulpursuits/?originalSubdomain=sg'
+                        name='Mr Cyrille Schwob' 
+                        picture='../judges/cyrille_schwob.jpeg'
+                        title='Head of Technology, Asia Pacific - Airbus'
+                        link='https://www.linkedin.com/in/%E9%9B%B7%E6%98%8E%E6%9D%B0-cyrille-schwob-b084865/'
                     />
                 </div>
             </div>
